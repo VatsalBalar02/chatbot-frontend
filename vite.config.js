@@ -15,7 +15,7 @@ export default defineConfig({
     // instead of Express — causing a blank page instead of a download.
     proxy: {
       "/api": {
-        target: "http://192.168.1.145:3001",
+        target: "http://192.168.1.187:3001",
         changeOrigin: true,
       },
     },
